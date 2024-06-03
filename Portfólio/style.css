@@ -1,0 +1,87 @@
+html{
+    overflow: hidden;
+}
+
+.header{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    width: 90%;
+    margin-top: 0;
+    padding-bottom: 1vh;
+    border-bottom: 0.3vh solid #000;
+}
+.links{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+a{
+    padding: 1vh;
+    color: #000;
+}
+.imagemIndex{
+    margin-left: 15%;
+    width: 80%;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+
+.sobreMim{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-right: 40%;
+    font-size: 3vh;
+}
+.imagemSobre{
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    margin-left: 25vh;
+    width: 65%;
+}
+.habilidades{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-right: 40%;
+    font-size: 2.5vh;
+}
+.escolar{
+    text-align: end;
+    margin-right: 30%;  
+}
+.imagemEscolar{
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    margin-left: 35vh;
+    width: 50%;
+}
+.profissao{
+    text-align: start;
+    margin-left: 15%;
+}
+.imagemProfissao{
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    margin-left: 35vh;
+    width: 50%;
+}
+.logoProfissao{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
+}
+.navInfo{
+    display: flex; 
+    justify-content: end; 
+    margin-left: 30%;
+}
+.info{  
+    text-align: start;
+    flex-direction: column;
+    margin-left: 35% ;
+    font-size: 3vh; 
+}
