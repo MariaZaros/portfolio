@@ -11,6 +11,7 @@ html{
     margin-top: 0;
     padding-bottom: 1vh;
     border-bottom: 0.3vh solid #000;
+    flex-wrap: wrap;
 }
 .links{
     padding-left: 15%;
@@ -24,6 +25,13 @@ a{
     margin-left: 15%;
     width: 80%;
     height: 100%;
+}
+.logoIndex{
+    width:50%;
+    height: 40%;
+}
+.textoIndex{
+    margin: 0;
 }
 .logo{
     display: flex;
@@ -48,6 +56,11 @@ a{
     padding-bottom: 3vh;
     margin-right: 40%;
     font-size: 2.5vh;
+}
+.TituloHabilidades{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-right: 40%;
 }
 .escolar{
     text-align: end;
@@ -84,4 +97,32 @@ a{
     flex-direction: column;
     margin-left: 35% ;
     font-size: 3vh; 
+}
+
+@media (max-width: 768px) {
+    html{
+        overflow-y: scroll;
+    }
+    .imagemIndex{
+        width: 60%;
+    }
+    .logoIndex{
+        margin-left: 20%;
+    }
+    .textoIndex{
+        margin-left: 20%;
+    }
+    .imagemSobre{
+        margin-left: 15%;
+    }
+    .sobreMim{
+        margin-right: 0;
+        margin-left: 15%;
+    }
+    .imagemProfissao{
+        margin-left: 15%;
+    }
+    .imagemEscolar{
+        margin-right: 15%;
+    }
 }
